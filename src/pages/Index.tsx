@@ -6,8 +6,8 @@ import Footer from '../components/Footer';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-xilas-background">
-      <header className="w-full py-6 relative z-10">
+    <div className="min-h-screen flex flex-col">
+      <header className="w-full py-6">
         <div className="container mx-auto px-4">
           <Logo className="mx-auto sm:mx-0" />
         </div>
