@@ -1,6 +1,9 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 
 @layer base {
   :root {
@@ -96,6 +99,23 @@
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-xilas-background text-xilas-text font-['Roboto',_sans-serif];
   }
+}
+
+/* Custom animations */
+.animate-delay-100 {
+  animation-delay: 100ms;
+}
+
+.animate-delay-200 {
+  animation-delay: 200ms;
+}
+
+.animate-delay-300 {
+  animation-delay: 300ms;
+}
+
+.animate-delay-400 {
+  animation-delay: 400ms;
 }
